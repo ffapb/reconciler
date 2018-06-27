@@ -23,10 +23,18 @@ Originally meant for financial institution to reconcile margins on CFDs with the
 
 ## TODO
 
+- add field "file type" which is a dropdown with choices `saxo margin, ffa margin`
+  - having "saxo margin" would call upon transformations of the original file copy-pasted from Saxo's margin web page
+    - drop unnecessary columns
+    - modify the "symbol" field to match with FFA's "symbol" field
+  - "ffa margin" does nothing ATM
+- continue work on `mf-sqlalchemy / export_margin_to_reconciler / main.py` to periodically export to here
+  - maybe also send an email to FFA's risk department to remind them to export the Saxo margins and reconcile
 - make "ok / diff" more advanced
   - more details for side-by-side comparison
   - add django views
   - kind of like http://pbpython.com/excel-diff-pandas.html
+
 
 ## Changelog
 
