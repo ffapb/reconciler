@@ -1,0 +1,6 @@
+*swp
+reconciler/settings_override.py
+*.sqlite3
+__pycache__
+uploaded/*.csv
+
