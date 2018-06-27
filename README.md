@@ -14,11 +14,11 @@ Originally meant for financial institution to reconcile margins on CFDs with the
 ## Usage
 
 - go to `localhost:8888/admin`
-- upload first file `bank_1_20180627.csv` in `FileModel`
-- upload a second file `bank_2_20180627.csv` in `FileModel`
+- upload first file `saxo_20180627.csv` in `FileModel`
+- upload a second file `ffa_20180627.csv` in `FileModel`
 - add a new `ReconciliationModel` object, and choose `file_1 = first file above` and `file_2 = second file above`
 - save
-- The name of the `ReconciliationModel` object just created will either be `bank_1... vs bank_2...: OK`  or `bank_1... vs bank_2...: diff`
+- The name of the `ReconciliationModel` object just created will either be `saxo... vs ffa...: OK`  or `saxo... vs ffa...: diff`
 
 
 ## TODO
