@@ -40,3 +40,4 @@ Originally meant for financial institution to reconcile margins on CFDs with the
 
 Version 0.1 (2018-07-??)
 - first commit with models and reconciliation based on `pandas.assert_frame_equal`
+- added notebook showing how to reconcile

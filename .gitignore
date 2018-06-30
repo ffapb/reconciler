@@ -4,3 +4,11 @@ reconciler/settings_override.py
 __pycache__
 uploaded/*.csv
 
+
+
+notebooks/.ipynb_checkpoints/
+notebooks/margin_recon-saxo-mf-dxb-20180630.xlsx
+notebooks/margin_recon-saxo-mf-lb-20180630.xlsx
+notebooks/mfxx_titre_cfd_20180629/
+notebooks/saxo21062018.csv
+
